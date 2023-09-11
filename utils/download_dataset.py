@@ -51,7 +51,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     parser.add_argument("--label_all_dataset", type=str, default="./data/AVVP_dataset_full.csv")
-    parser.add_argument("--videos_saved_dir", type=str, default='/home/yuhsuanchen/Desktop/mnt/AVVP_Dataset/videos_download')
+    parser.add_argument("--videos_saved_dir", type=str, default='./data/raw_videos')
 
     args = parser.parse_args()
 
