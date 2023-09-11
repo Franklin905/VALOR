@@ -1,7 +1,9 @@
-data/
-models/
+data/*
+models/*
 !models/.gitkeep
 !data/.gitkeep
+!data/example.csv
+data/feats/*
 !data/feats/.gitkeep
 
 
