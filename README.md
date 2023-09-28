@@ -1,6 +1,6 @@
 # Modality-Independent Teachers Meet Weakly-Supervised Audio-Visual Event Parser
 
-This is the official repository of [VALOR](https://arxiv.org/abs/2305.17343).
+This is the official repository of NeurIPS 2023 paper [VALOR](https://arxiv.org/abs/2305.17343).
 
 ![VALOR](./figures/framework_figure.png)
 
@@ -190,10 +190,10 @@ We build VALOR codebase heavily on the codebase of [AVVP-ECCV20](https://github.
 ## Citation
 If you find this code useful for your research, please consider citing:
 ```bibtex
-@article{lai2023modality,
+@inproceedings{lai2023modality,
   title={Modality-Independent Teachers Meet Weakly-Supervised Audio-Visual Event Parser},
   author={Yung-Hsuan Lai, Yen-Chun Chen, Yu-Chiang Frank Wang},
-  journal={arXiv preprint arXiv:2305.17343},
+  booktitle={NeurIPS},
   year={2023}
 }
 ```
