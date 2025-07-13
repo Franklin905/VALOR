@@ -5,7 +5,7 @@ This is the official repository of NeurIPS 2023 paper [VALOR](https://arxiv.org/
 ![VALOR](./figures/framework_figure.png)
 
 [**Modality-Independent Teachers Meet Weakly-Supervised Audio-Visual Event Parser**](https://arxiv.org/abs/2305.17343)
-<br/>[Yung-Hsuan Lai](https://github.com/Franklin905), [Yen-Chun Chen](https://github.com/ChenRocks), Yu-Chiang Frank Wang<br/>
+<br/>[Yung-Hsuan Lai](https://github.com/Franklin905), [Yen-Chun Chen](https://github.com/ChenRocks), [Yu-Chiang Frank Wang](https://vllab.ee.ntu.edu.tw/ycwang.html)<br/>
 
 
 ## Machine environment
@@ -50,7 +50,7 @@ Please download LLP dataset annotations (6 csv files) from [AVVP-ECCV20](https:/
 Please download audio features (VGGish), 2D visual features (ResNet152), and 3D visual features (ResNet (2+1)D) from [AVVP-ECCV20](https://github.com/YapengTian/AVVP-ECCV20) and put in `data/feats/`
 
 ### CLIP features & segment-level pseudo labels
-Option 1. Please download visual features and segment-level pseudo labels from CLIP from this Google Drive [link](https://drive.google.com/file/d/113QVJtvLf1Qdbz3P2Z2kG3aCi_x0ipjY/view?usp=sharing), put in `data/`, and unzip the file with the following command:
+Option 1. Please download visual features and segment-level pseudo labels from CLIP from this [link](https://huggingface.co/datasets/NTUBarista/valor_features/blob/main/CLIP.zip), put in `data/`, and unzip the file with the following command:
 ```bash
 unzip CLIP.zip
 ```
@@ -69,7 +69,7 @@ python ./utils/clip_preprocess.py --label_all_dataset ./data/example.csv --pseud
 </details>
 
 ### CLAP features & segment-level pseudo labels
-Option 1. Please download audio features and segment-level pseudo labels from CLAP from this Google Drive [link](https://drive.google.com/file/d/17ErPglRS7Yzm93aF_3WTlfZuSyw12QQA/view?usp=sharing), put in `data/`, and unzip the file with the following command:
+Option 1. Please download audio features and segment-level pseudo labels from CLAP from this [link](https://huggingface.co/datasets/NTUBarista/valor_features/blob/main/CLAP.zip), put in `data/`, and unzip the file with the following command:
 ```bash
 unzip CLAP.zip
 ```
@@ -125,7 +125,7 @@ Please make sure that the file structure is the same as the following.
 
 
 ## Download trained models
-Please download the trained models from this Google Drive [link](https://drive.google.com/drive/folders/1BDBZ3Ws75yzemIQrnBhBFfO4XD3zsEGR?usp=sharing) and put the models in their corresponding model directory.
+Please download the trained models from this [link](https://huggingface.co/NTUBarista/valor_trained_models/tree/main) and put the models in their corresponding model directory.
 
    <details><summary>File structure</summary>
 
